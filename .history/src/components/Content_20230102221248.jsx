@@ -11,56 +11,56 @@ const Content = () => {
             </h3>
           </div>
         </div>
-        <div class="grid grid-cols-2 gap-4 justify-center lg:grid-cols-5 xl:grid-cols-6">
-          <div class="rounded-lg shadow-lg bg-white max-w-sm max-h-sm">
+        <div "grid grid-cols-2 gap-4 justify-center lg:grid-cols-5 xl:grid-cols-6">
+          <div "rounded-lg shadow-lg bg-white max-w-sm max-h-sm">
             <a href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">
               <img
-                class="rounded-t-lg"
+                "rounded-t-lg"
                 src="https://mdbootstrap.com/img/new/standard/nature/182.jpg"
                 alt=""
               />
             </a>
-            <div class="p-6">
-              <h5 class="text-gray-900 text-xl font-medium mb-2">Card title</h5>
+            <div "p-6">
+              <h5 "text-gray-900 text-xl font-medium mb-2">Card title</h5>
               <button
                 type="button"
-                class=" inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
+                " inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
               >
                 Button
               </button>
             </div>
           </div>
-          <div class="rounded-lg shadow-lg bg-white max-w-sm max-h-sm">
+          <div "rounded-lg shadow-lg bg-white max-w-sm max-h-sm">
             <a href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">
               <img
-                class="rounded-t-lg"
+                "rounded-t-lg"
                 src="https://mdbootstrap.com/img/new/standard/nature/182.jpg"
                 alt=""
               />
             </a>
-            <div class="p-6">
-              <h5 class="text-gray-900 text-xl font-medium mb-2">Card title</h5>
+            <div "p-6">
+              <h5 "text-gray-900 text-xl font-medium mb-2">Card title</h5>
               <button
                 type="button"
-                class=" inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
+                " inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
               >
                 Button
               </button>
             </div>
           </div>
-          <div class="rounded-lg shadow-lg bg-white max-w-sm max-h-sm">
+          <div "rounded-lg shadow-lg bg-white max-w-sm max-h-sm">
             <a href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">
               <img
-                class="rounded-t-lg"
+                "rounded-t-lg"
                 src="https://mdbootstrap.com/img/new/standard/nature/182.jpg"
                 alt=""
               />
             </a>
-            <div class="p-6">
-              <h5 class="text-gray-900 text-xl font-medium mb-2">Card title</h5>
+            <div "p-6">
+              <h5 "text-gray-900 text-xl font-medium mb-2">Card title</h5>
               <button
                 type="button"
-                class=" inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
+                " inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
               >
                 Button
               </button>
