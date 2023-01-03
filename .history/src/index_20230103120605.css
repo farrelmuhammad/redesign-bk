@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Flame";
+  src: url("../public/fonts/FlameBold.otf");
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #857d87 #ffffff;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 10px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #ddb505;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #857d87;
+  border-radius: 10px;
+  border: 3px solid #ffffff;
+}
