@@ -1,7 +1,20 @@
 import { Rate } from "antd";
 import React from "react";
+import supabase from "../utils/clients";
 
 const Content = () => {
+  const [menus, setMenus] = React.useState([]);
+  const [loading, setLoading] = React.useState(true);
+
+  React.useEffect(() => {
+    fetchMenus();
+  }, []);
+
+  async function fetchMenus() {
+    let { data: menus, error } = await supabase.from("menus").select("*");
+    setMenus(menus);
+    console.log(menus);
+  }
   return (
     <>
       <section className="flex flex-col mt-20 py-5 bg-[#FFF1CB]">

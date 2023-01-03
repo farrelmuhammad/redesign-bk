@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
-import Footer from '../components/Footer'
 import Content from '../components/Home/Content'
-import Header from '../components/Home/Header'
+import Footer from '../components/Footer'
+import Header from '../components/Header'
 import Navbar from '../components/Navbar'
 import supabase from '../utils/clients'
 
