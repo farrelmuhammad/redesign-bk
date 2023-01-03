@@ -7,7 +7,7 @@ const Content = ({ data, loading }) => {
   // console.log(data)
   return (
     <>
-      <section className="flex flex-col py-5 bg-[#FFF1CB]">
+      <section className="flex flex-col mt-10 py-5 bg-[#FFF1CB]">
         <div className="container mx-auto mb-4">
           <div className="flex justify-center text-center mb-4">
             <h3 className="text-3xl capitalize font-flame text-[#8b542f] drop-shadow-lg font-semibold">

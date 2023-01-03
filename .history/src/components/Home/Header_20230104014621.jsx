@@ -3,7 +3,7 @@ import React from "react";
 const Header = () => {
   return (
     <>
-      <div className="banner mt-6 mb-10 mx-4 md:mx-0">
+      <div className="banner mt-4 mx-4 md:mx-0">
         <div className="flex gap-4 w-full items-center justify-center">
           {/* <div className="md:w-1/6 md:h-[224px] bg-[#B6D4A8] rounded-l rounded-[20px]">
           </div> */}

@@ -24,7 +24,7 @@ const Home = () => {
     <>
     <Navbar />
     <Header />
-    {/* <TextScroller /> */}
+    <TextScroller />
     <Content data={menus} loading={loading} />
     <Footer />
     </>
