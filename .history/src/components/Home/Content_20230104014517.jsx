@@ -29,43 +29,43 @@ const Content = ({ data, loading }) => {
               </div>
               <div>
                 <div "flex items-center justify-end mt-2 text-gray-800">
-                  <div class="flex items-center justify-end">
+                  <div className="flex items-center justify-end">
                     <div className="animate-pulse mt-2 w-32 h-4 bg-slate-200 inline-block px-6 py-2 rounded"></div>
                   </div>
                 </div>
               </div>
             </div>
 
-            <div class="max-w-xs h-[300px] flex flex-col justify-between bg-white drop-shadow-xl rounded-lg border border-gray-400 mb-6 mx-auto py-5 px-4">
+            <div className="max-w-xs h-[300px] flex flex-col justify-between bg-white drop-shadow-xl rounded-lg border border-gray-400 mb-6 mx-auto py-5 px-4">
               <div>
                 <img
                   // src={menu.image}
                   alt=""
-                  class="animate-pulse bg-slate-200 w-[300px] h-[200px] object-cover"
+                  className="animate-pulse bg-slate-200 w-[300px] h-[200px] object-cover"
                 />
                 <div className="animate-pulse mt-2 w-32 h-4 bg-slate-200 rounded-sm"></div>
               </div>
               <div>
-                <div class="flex items-center justify-end mt-2 text-gray-800">
-                  <div class="flex items-center justify-end">
+                <div className="flex items-center justify-end mt-2 text-gray-800">
+                  <div className="flex items-center justify-end">
                     <div className="animate-pulse mt-2 w-32 h-4 bg-slate-200 inline-block px-6 py-2 rounded"></div>
                   </div>
                 </div>
               </div>
             </div>
 
-            <div class="max-w-xs h-[300px] flex flex-col justify-between bg-white drop-shadow-xl rounded-lg border border-gray-400 mb-6 mx-auto py-5 px-4">
+            <div className="max-w-xs h-[300px] flex flex-col justify-between bg-white drop-shadow-xl rounded-lg border border-gray-400 mb-6 mx-auto py-5 px-4">
               <div>
                 <img
                   // src={menu.image}
                   alt=""
-                  class="animate-pulse bg-slate-200 w-[300px] h-[200px] object-cover"
+                  className="animate-pulse bg-slate-200 w-[300px] h-[200px] object-cover"
                 />
                 <div className="animate-pulse mt-2 w-32 h-4 bg-slate-200 rounded-sm"></div>
               </div>
               <div>
-                <div class="flex items-center justify-end mt-2 text-gray-800">
-                  <div class="flex items-center justify-end">
+                <div className="flex items-center justify-end mt-2 text-gray-800">
+                  <div className="flex items-center justify-end">
                     <div className="animate-pulse mt-2 w-32 h-4 bg-slate-200 inline-block px-6 py-2 rounded"></div>
                   </div>
                 </div>
@@ -74,29 +74,29 @@ const Content = ({ data, loading }) => {
           </div>
         )}
 
-        <div class="grid lg:grid-cols-3 sm:gap-3 sm:grid-cols-2 w-10/12 mx-auto justify-center items-center py-1 px-6">
+        <div className="grid lg:grid-cols-3 sm:gap-3 sm:grid-cols-2 w-10/12 mx-auto justify-center items-center py-1 px-6">
           {data.map((menu) => (
             <div
-              class="max-w-xs h-[300px] flex flex-col justify-between bg-white drop-shadow-xl rounded-lg border border-gray-400 mb-6 mx-auto py-5 px-4"
+              className="max-w-xs h-[300px] flex flex-col justify-between bg-white drop-shadow-xl rounded-lg border border-gray-400 mb-6 mx-auto py-5 px-4"
               key={menu.id}
             >
               <div>
                 <img
                   src={menu.image}
                   alt=""
-                  class="w-[300px] h-[200px] object-cover"
+                  className="w-[300px] h-[200px] object-cover"
                 />
                 <h4
                   tabindex="0"
-                  class="focus:outline-none text-[#8B542F] text-xl font-flame"
+                  className="focus:outline-none text-[#8B542F] text-xl font-flame"
                 >
                   {menu.name}
                 </h4>
               </div>
               <div>
-                <div class="flex items-center justify-end mt-2 text-gray-800">
+                <div className="flex items-center justify-end mt-2 text-gray-800">
                   {/* <Rate allowHalf defaultValue={2.5} /> */}
-                  <div class="flex items-center justify-end">
+                  <div className="flex items-center justify-end">
                     {/* <Link to={`/product/${menu.name}`}> */}
                     <Link to="/products">
                       <button

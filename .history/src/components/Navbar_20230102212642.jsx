@@ -2,18 +2,18 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <nav class="bg-gray-800">
-      <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
-        <div class="relative flex h-16 items-center justify-between">
-          <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
+    <nav className="bg-gray-800">
+      <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+        <div className="relative flex h-16 items-center justify-between">
+          <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
             {/* <!-- Mobile menu button--> */}
             <button
               type="button"
-              class="inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
+              className="inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
               aria-controls="mobile-menu"
               aria-expanded="false"
             >
-              <span class="sr-only">Open main menu</span>
+              <span className="sr-only">Open main menu</span>
               {/* <!--
             Icon when menu is closed.
 
@@ -22,7 +22,7 @@ const Navbar = () => {
             Menu open: "hidden", Menu closed: "block"
           --> */}
               <svg
-                class="block h-6 w-6"
+                className="block h-6 w-6"
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
@@ -44,7 +44,7 @@ const Navbar = () => {
             Menu open: "block", Menu closed: "hidden"
           --> */}
               <svg
-                class="hidden h-6 w-6"
+                className="hidden h-6 w-6"
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
@@ -60,25 +60,25 @@ const Navbar = () => {
               </svg>
             </button>
           </div>
-          <div class="flex flex-shrink-0 items-center">
+          <div className="flex flex-shrink-0 items-center">
             <img
-              class="block mt-8 h-20 w-auto lg:hidden"
+              className="block mt-8 h-20 w-auto lg:hidden"
               src="https://bkdelivery.co.id/static/website/img/logo_2022.38d01a7c7dd3.png"
               alt="Burger King Delivery"
             />
             <img
-              class="hidden mt-8 h-20 w-auto lg:block"
+              className="hidden mt-8 h-20 w-auto lg:block"
               src="https://bkdelivery.co.id/static/website/img/logo_2022.38d01a7c7dd3.png"
               alt="Burger King Delivery"
             />
           </div>
-          <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
-            <div class="hidden sm:ml-6 sm:block">
-              <div class="flex space-x-4">
+          <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
+            <div className="hidden sm:ml-6 sm:block">
+              <div className="flex space-x-4">
                 {/* <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" --> */}
                 <a
                   href="#"
-                  class="flex flex-col text-gray-300 hover:underline px-3 py-2 rounded-md text-sm font-medium"
+                  className="flex flex-col text-gray-300 hover:underline px-3 py-2 rounded-md text-sm font-medium"
                   aria-current="page"
                 >
                   <span className="text-[#faaf18] font-flame">Delivery</span>
@@ -86,7 +86,7 @@ const Navbar = () => {
                 </a>
                 <a
                   href="#"
-                  class="flex flex-col text-gray-300 hover:underline px-3 py-2 rounded-md text-sm font-medium"
+                  className="flex flex-col text-gray-300 hover:underline px-3 py-2 rounded-md text-sm font-medium"
                   aria-current="page"
                 >
                   <span className="text-[#faaf18] font-flame">Get Fresh</span>
@@ -97,15 +97,15 @@ const Navbar = () => {
               </div>
             </div>
           </div>
-          <div class="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
+          <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
             <button
               type="button"
-              class="rounded-full bg-gray-800 p-1 text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
+              className="rounded-full bg-gray-800 p-1 text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
             >
-              <span class="sr-only">View notifications</span>
+              <span className="sr-only">View notifications</span>
               {/* <!-- Heroicon name: outline/bell --> */}
               <svg
-                class="h-6 w-6"
+                className="h-6 w-6"
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
@@ -122,26 +122,26 @@ const Navbar = () => {
             </button>
 
             {/* <!-- Profile dropdown --> */}
-            <div class="relative ml-3">
-              <div class="flex space-x-2 justify-center">
+            <div className="relative ml-3">
+              <div className="flex space-x-2 justify-center">
                 <button
                   type="button"
                   data-mdb-ripple="true"
                   data-mdb-ripple-color="light"
-                  class="inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
+                  className="inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
                 >
                   Login
                 </button>
                 {/* <button
                   type="button"
-                  class="flex rounded-full bg-gray-800 text-sm focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
+                  className="flex rounded-full bg-gray-800 text-sm focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
                   id="user-menu-button"
                   aria-expanded="false"
                   aria-haspopup="true"
                 >
-                  <span class="sr-only">Open user menu</span>
+                  <span className="sr-only">Open user menu</span>
                   <img
-                    class="h-8 w-8 rounded-full"
+                    className="h-8 w-8 rounded-full"
                     src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
                     alt=""
                   />
@@ -159,7 +159,7 @@ const Navbar = () => {
               To: "transform opacity-0 scale-95"
           --> */}
               {/* <div
-                class="absolute right-0 z-10 mt-2 w-48 origin-top-right rounded-md bg-white py-1 shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none"
+                className="absolute right-0 z-10 mt-2 w-48 origin-top-right rounded-md bg-white py-1 shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none"
                 role="menu"
                 aria-orientation="vertical"
                 aria-labelledby="user-menu-button"
@@ -168,7 +168,7 @@ const Navbar = () => {
                 <!-- Active: "bg-gray-100", Not Active: "" -->
                 <a
                   href="#"
-                  class="block px-4 py-2 text-sm text-gray-700"
+                  className="block px-4 py-2 text-sm text-gray-700"
                   role="menuitem"
                   tabindex="-1"
                   id="user-menu-item-0"
@@ -177,7 +177,7 @@ const Navbar = () => {
                 </a>
                 <a
                   href="#"
-                  class="block px-4 py-2 text-sm text-gray-700"
+                  className="block px-4 py-2 text-sm text-gray-700"
                   role="menuitem"
                   tabindex="-1"
                   id="user-menu-item-1"
@@ -186,7 +186,7 @@ const Navbar = () => {
                 </a>
                 <a
                   href="#"
-                  class="block px-4 py-2 text-sm text-gray-700"
+                  className="block px-4 py-2 text-sm text-gray-700"
                   role="menuitem"
                   tabindex="-1"
                   id="user-menu-item-2"
@@ -200,12 +200,12 @@ const Navbar = () => {
       </div>
 
       {/* <!-- Mobile menu, show/hide based on menu state. --> */}
-      <div class="sm:hidden" id="mobile-menu">
-        <div class="space-y-1 px-2 pt-2 pb-3">
+      <div className="sm:hidden" id="mobile-menu">
+        <div className="space-y-1 px-2 pt-2 pb-3">
           {/* <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" --> */}
           <a
             href="#"
-            class="bg-gray-900 text-white block px-3 py-2 rounded-md text-base font-medium"
+            className="bg-gray-900 text-white block px-3 py-2 rounded-md text-base font-medium"
             aria-current="page"
           >
             Dashboard
@@ -213,21 +213,21 @@ const Navbar = () => {
 
           <a
             href="#"
-            class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+            className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
           >
             Team
           </a>
 
           <a
             href="#"
-            class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+            className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
           >
             Projects
           </a>
 
           <a
             href="#"
-            class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+            className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
           >
             Calendar
           </a>
